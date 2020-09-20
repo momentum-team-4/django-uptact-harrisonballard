@@ -44,6 +44,7 @@ For the first assignment, spend time familiarizing yourself with Django. Look at
 * If I wanted to add a birthday to each contact, what file would I edit?
 
 Then do the following steps:
+#STILL NEED TO ADD THIS TO static.fonts file, doesn't have birthday glyph linked rn
 
 1. Add a birthday field to the `Contact` model. This field should be of type `DateField` and should be allowed to be null and empty.
 2. Make sure you can edit the birthday by changing the `ContactForm`.

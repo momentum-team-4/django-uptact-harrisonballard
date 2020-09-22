@@ -9,6 +9,11 @@ def list_contacts(request):
     return render(request, "contacts/list_contacts.html",
                   {"contacts": contacts})
 
+def contacts(request):
+    return render(request, "contacts.html",
+                   {"contacts": contacts})
+    
+
 
 def add_contact(request):
     if request.method == 'GET':
